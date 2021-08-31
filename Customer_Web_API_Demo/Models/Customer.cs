@@ -14,6 +14,7 @@ namespace Customer_Web_API_Demo.Models
         public string Name { get; set; }
         [Required]
         public string Mobile { get; set; }
+        [Required]
         public DateTime DOB { get; set; }
         public string Address { get; set; }
         
